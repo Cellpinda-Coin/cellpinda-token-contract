@@ -356,9 +356,9 @@ contract MintableToken is StandardToken, Ownable {
 
 contract Cellpinda is PausableToken, MintableToken {
     string public name = "Cellpinda";
-    string public symbol = "CPT";
+    string public symbol = "CPD";
     uint256 public decimals = 8;
-    uint256 public INITIAL_SUPPLY = 600000000 * (10 ** uint256(decimals));
+    uint256 public INITIAL_SUPPLY = 10000000000 * (10 ** uint256(decimals));
   
     constructor() public 
     {
